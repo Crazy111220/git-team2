@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Regex:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Regex_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Regex/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Regex" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
