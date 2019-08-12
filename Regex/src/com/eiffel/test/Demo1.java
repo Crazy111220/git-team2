@@ -7,7 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Demo1 {
-    /*思路分析：
+    /*思路分析： 
         (1)、长度为18位
         (2)、前面17位必须为纯数字
         (3)、最后一位可以为X，也可以为数字
@@ -19,7 +19,7 @@ public class Demo1 {
         boolean flag = idCard.matches(regex1);
         System.out.println(flag?"身份证号验证通过":"身份证号有误");
 
-        /*校验出生日期
+        /*校验出生日期思路分析
         * 1.年月日时间不能大于系统时间
         * 2.年份不能太大
         * */
